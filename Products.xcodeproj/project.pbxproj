@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A7EA491C2DC84592002923D0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EA491B2DC84592002923D0 /* HTTPMethod.swift */; };
-		A7EA49242DC8473B002923D0 /* ProductUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EA49232DC8473A002923D0 /* ProductUseCaseProtocol.swift */; };
 		A7EA49392DC969F3002923D0 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7EA49382DC969F3002923D0 /* Config.xcconfig */; };
 		A7EA49412DC96E73002923D0 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = A7EA49402DC96E73002923D0 /* SwiftKeychainWrapper */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		A7251DD12DC81F4800BDD70B /* ProductsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7251DDB2DC81F4800BDD70B /* ProductsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EA491B2DC84592002923D0 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Products/Service/HTTPMethod.swift; sourceTree = "<group>"; };
-		A7EA49232DC8473A002923D0 /* ProductUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductUseCaseProtocol.swift; sourceTree = "<group>"; };
 		A7EA49382DC969F3002923D0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +97,6 @@
 		A7251DB22DC81F4500BDD70B = {
 			isa = PBXGroup;
 			children = (
-				A7EA49232DC8473A002923D0 /* ProductUseCaseProtocol.swift */,
 				A7EA491B2DC84592002923D0 /* HTTPMethod.swift */,
 				A7251DD42DC81F4800BDD70B /* ProductsTests */,
 				A7251DDE2DC81F4800BDD70B /* ProductsUITests */,
@@ -269,7 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7EA491C2DC84592002923D0 /* HTTPMethod.swift in Sources */,
-				A7EA49242DC8473B002923D0 /* ProductUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
