@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  Products
+//
+//  Created by Erick Moraes Teixeira on 05/05/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+API_BASE_URL = https://dummyjson.com/products
